@@ -31,3 +31,7 @@ This is a basic but working prototype for any complex system to be produce in fu
   >python .\main.py
 
 
+
+
+### Screen shots of the project are also added to the project
+
