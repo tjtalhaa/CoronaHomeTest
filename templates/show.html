@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>Covid-19 Result</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/images/favicon.png') }}" type="image/png">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/LineIcons.css') }}">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/default.css') }}">
+    
+    
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css.map.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css.map.css') }}">
+    <!-- 
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/default.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/LineIcons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/slick.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.min.map.css') }}">
+   -->
+
+</head>
+
+<body>
+
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader_34">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER ENDS START ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <header id="home" class="header-area">
+        <div class="navigation fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                          <a class="navbar-brand" href="/">
+                            <h3 style=" color: #754ef9"> COVID HOME TEST </h3>
+                         </a> <!-- Logo -->
+                           
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navigation -->
+        
+        <div id="parallax" class="header-content d-flex align-items-center">
+            <div class="header-shape shape-one layer" data-depth="0.10">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-1.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-tow layer" data-depth="0.30">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-2.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-three layer" data-depth="0.40">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-3.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-fore layer" data-depth="0.60">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-2.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-five layer" data-depth="0.20">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-1.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-six layer" data-depth="0.15">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-4.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            
+            <div class="header-shape shape-eight layer" data-depth="0.40">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-3.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-nine layer" data-depth="0.20">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-6.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-ten layer" data-depth="0.30">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-3.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            
+            
+            <div class="container ">
+               
+                
+
+                  <div class=" align-items-center">
+                    <h2 class="text-center "> Corona Virus Detection Test</h2>
+ 
+                    <!-- headomg ends here-->
+                  
+                    
+                    <h6 class="text-center mt-3 "> Patient's Probabilty of getting virus is <span style="color:red">{{inf}} %</span></h6> 
+                    <p class="text-center mt-3 "> Thank You for using the probability detector</p> 
+                    <p class="text-center mt-3 "> STAY HOME STAY SAFE </p>  
+                    <div class="text-center mt-3">
+                    <a  href="/"> <button type="submit" class="  btn btn-success my-2 my-sm-0">Go Back</button> </a>
+                    </div>  
+                  </div>
+                    
+                  </div>
+                </div> <!-- row -->
+         <!-- container -->
+          
+                
+        </div> <!-- header content -->
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+
+ 
+
+    <!--====== CALL TO ACTION PART ENDS ======-->
+
+    <section id="contact" class="contact-area pt-125 pb-130 gray-bg">
+      <div class="container">
+        <h4 class="text-center "> Wash Hands Periodically Throughout The Day</h4>
+        <div class="row justify-content-center">
+         
+          <div class="col-lg-4 col-md-6 col-sm-7">
+              <div class="contact-box text-center mt-30">
+                  <div >
+                      <img src="{{ url_for('static' ,filename='assets/images/TC/s1.png') }}" alt="Shape">
+                  </div> <!-- header shape -->
+              </div> <!-- contact box -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="contact-box text-center mt-30">
+                <div >
+                    <img src="{{ url_for('static' ,filename='assets/images/TC/s2.png') }}" alt="Shape">
+                </div> <!-- header shape -->
+            </div> <!-- contact box -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-7">
+          <div class="contact-box text-center mt-30">
+              <div >
+                  <img src="{{ url_for('static' ,filename='assets/images/TC/s3.png') }}" alt="Shape">
+              </div> <!-- header shape -->
+          </div> <!-- contact box -->
+      </div>
+       </div>  
+      </div> <!-- container -->
+    </section>
+    
+   
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="footer" class="footer-area">
+      
+
+      <div class="footer-copyright pb-20">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="copyright-text text-center pt-20">
+                          <p>Copyright © 2020. Developed with love by <a href="https://www.talhakhalid.tk/" rel="nofollow">TJ</a></p>
+                      </div> <!-- copyright text -->
+                  </div>
+              </div> <!-- row -->
+          </div> <!-- container -->
+      </div> <!-- footer widget -->
+  </footer>
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="/" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/vendor/modernizr-3.6.0.min.js') }}"></script>
+    <script src="{{ url_for('static' ,filename='assets/js/vendor/jquery-1.12.4.min.js') }}"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static' ,filename='assets/js/popper.min.js') }}"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/jquery.magnific-popup.min.js') }}"></script>
+
+    <!--====== Parallax js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/parallax.min.js') }}"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static' ,filename='assets/js/jquery.counterup.min.js') }}"></script>
+
+
+ 
+
+
+    <!--====== Appear js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/jquery.appear.min.js') }}"></script>
+
+    <!--====== Scrolling js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/scrolling-nav.js') }}"></script>
+    <script src="{{ url_for('static' ,filename='assets/js/jquery.easing.min.js') }}"></script>
+
+
+    <!--====== Main js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/main.js') }}"></script>
+
+
+    <script src="{{ url_for('static' ,filename='assets/js/bootstrap.min.js.map.js') }}"></script>
+    <script src="{{ url_for('static' ,filename='assets/js/popper.min.js.map.js') }}"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+

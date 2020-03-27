@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>Covid-19 Test</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/images/favicon.png') }}" type="image/png">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/LineIcons.css') }}">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/default.css') }}">
+    
+    
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css.map.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css.map.css') }}">
+    <!-- 
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/default.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/LineIcons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/slick.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.min.map.css') }}">
+   -->
+
+</head>
+
+<body>
+
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader_34">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER ENDS START ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <header id="home" class="header-area">
+        <div class="navigation fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="/">
+                               <h3 style=" color: #754ef9"> COVID HOME TEST </h3>
+                            </a> <!-- Logo -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#about">About</a></li>
+                                    
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navigation -->
+        
+        <div id="parallax" class="header-content d-flex align-items-center">
+            <div class="header-shape shape-one layer" data-depth="0.10">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-1.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-tow layer" data-depth="0.30">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-2.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-three layer" data-depth="0.40">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-3.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-fore layer" data-depth="0.60">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-2.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-five layer" data-depth="0.20">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-1.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-six layer" data-depth="0.15">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-4.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            
+            <div class="header-shape shape-eight layer" data-depth="0.40">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-3.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-nine layer" data-depth="0.20">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-6.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-ten layer" data-depth="0.30">
+                <img src="{{ url_for('static' ,filename='assets/images/banner/shape/shape-3.png') }}" alt="Shape">
+            </div> <!-- header shape -->
+            
+            
+            <div class="container ">
+               
+                
+              
+                  <div class=" align-items-center">
+                    <h2 class="text-center "> Corona Virus Detection Test</h2>
+                  <form action="/" method="POST">
+                    <div class="form-group" >
+                      <label for="fever">Enter Fever Value</label>
+                      <input type="number" class="form-control" id="fever" name='fever' placeholder="Enter Fever Value"
+                      min="98" max="104">
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                        <label for="pain">Body Pain Intensity</label>
+                        <select  class="form-control custom-select" id="pain"  name='pain' >
+                          <option value="0">No Pain</option>
+                          <option value="1">Severe Pain</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group" >
+                        <label for="age">Enter Your Age </label>
+                        <input type="number" class="form-control" id="age" name='age' placeholder="Enter Your Age "
+                        min="1" max="100">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="runningNose">Running Nose</label>
+                        <select  class="form-control custom-select" id="runningNose"  name='runningNose' >
+                          <option value="0">No</option>
+                          <option value="1">Yes</option>
+                        </select>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="diffBreathing">Difficulty in Breathing</label>
+                        <select  class="form-control custom-select" id="diffBreathing"  name='diffBreathing' >
+                          <option value="-1">No Difficulty</option>
+                          <option value="0">Mild Difficulty</option>
+                          <option value="1">Severe Difficulty</option>
+                        </select>
+                      </div>
+        
+        
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                       
+                      </form>
+                    </div>
+                    
+                  </div>
+                </div> <!-- row -->
+         <!-- container -->
+          
+                
+        </div> <!-- header content -->
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+     
+
+    <section id="contact" class="contact-area pt-125 pb-8 gray-bg">
+      <div class="container">
+        <h4 class="text-center "> Wash Hands Periodically Throughout The Day</h4>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-7">
+              <div class="contact-box text-center mt-30">
+                  <div >
+                      <img src="{{ url_for('static' ,filename='assets/images/TC/s1.png') }}" alt="Shape">
+                  </div> <!-- header shape -->
+              </div> <!-- contact box -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="contact-box text-center mt-30">
+                <div >
+                    <img src="{{ url_for('static' ,filename='assets/images/TC/s2.png') }}" alt="Shape">
+                </div> <!-- header shape -->
+            </div> <!-- contact box -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-7">
+          <div class="contact-box text-center mt-30">
+              <div >
+                  <img src="{{ url_for('static' ,filename='assets/images/TC/s3.png') }}" alt="Shape">
+              </div> <!-- header shape -->
+          </div> <!-- contact box -->
+      </div>
+       </div>  
+      </div> <!-- container -->
+    </section>
+    <!--====== ABOUT PART START ======-->
+
+    <section id="about" class="about-area pt-125 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="title">About Me</h2>
+                        <p class="text-about">My dream is to one day start my own business and become an entrepreneur. I have few ideas but as usual, they need financial assistance</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content mt-50">
+                        <h5 class="about-title ">Hi There! I'm Talha aka TJ</h5>
+                        <p class="text-about">I'm a software engineer with experience in c#, c++ and python. During my academia, I created a few websites in asp.net that created my passion for websites. Right Now I am learning hard to be a full-stack engineer with gaining experience in Express JS, Node JS, MongoDB and React</p>
+                          <ul class="clearfix">
+                            
+                            <li>
+                                <div class="single-info d-flex align-items-center">
+                                    <div class="info-icon">
+                                        <i class="lni-envelope"></i>
+                                    </div>
+                                    <div class="info-text">
+                                        <p><span>Email:</span> maliktalha395@gmail.com</p>
+                                    </div>
+                                </div> <!-- single info -->
+                            </li>
+                            <br/>
+                            <br/><br/>
+                            <li>
+                                <div class="single-info d-flex align-items-center">
+                                    <div class="info-icon">
+                                        <i class="lni-phone-handset"></i>
+                                    </div>
+                                    <div class="info-text">
+                                        <p><span>Phone:</span> +92 345 5502839</p>
+                                    </div>
+                                </div> <!-- single info -->
+                            </li>
+                           
+                        </ul>
+                    </div> <!-- about content -->
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-lg-6">
+                    <div class="about-skills pt-25">
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">Front-End Dev</h6>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">90</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div> <!-- skill item -->
+                        <div class="skill-item mt-25">
+                          <div class="skill-header">
+                              <h6 class="skill-title">Python</h6>
+                              <div class="skill-percentage">
+                                  <div class="count-box counted">
+                                      <span class="counter">70</span>
+                                  </div>
+                                  %
+                              </div>
+                          </div>
+                          <div class="skill-bar">
+                              <div class="bar-inner">
+                                  <div class="bar progress-line" data-width="70"></div>
+                              </div>
+                          </div>
+                      </div> <!-- skill item -->
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">Backend Dev</h6>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">50</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="50"></div>
+                                </div>
+                            </div>
+                        </div> <!-- skill item -->
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">Photoshop</h6>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">70</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div> <!-- skill item -->
+                        
+                    </div> <!-- about skills -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+  
+
+    <!--====== CALL TO ACTION PART START ======-->
+
+    <section id="call-to-action" class="call-to-action pt-125 pb-130 bg_cover" style="background-image: url(assets/images/call-to-action.jpg)">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-9">
+                    <div class="call-action-content text-center">
+                        <h2 class="action-title">Have any project on mind?</h2>
+                        <ul>
+                            <li><a class="main-btn custom" href="https://www.talhakhalid.tk/">Visit my website</a></li>
+                            <li><a class="main-btn custom-2" href="https://github.com/tjtalhaa">Visit my Github </a></li>
+                        </ul>
+                    </div> <!-- call action content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CALL TO ACTION PART ENDS ======-->
+
+   
+    
+   
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="footer" class="footer-area">
+      
+
+      <div class="footer-copyright pb-20">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="copyright-text text-center pt-20">
+                          <p>Copyright © 2020. Developed with love by <a href="https://www.talhakhalid.tk/" rel="nofollow">TJ</a></p>
+                      </div> <!-- copyright text -->
+                  </div>
+              </div> <!-- row -->
+          </div> <!-- container -->
+      </div> <!-- footer widget -->
+  </footer>
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="/" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/vendor/modernizr-3.6.0.min.js') }}"></script>
+    <script src="{{ url_for('static' ,filename='assets/js/vendor/jquery-1.12.4.min.js') }}"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static' ,filename='assets/js/popper.min.js') }}"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/jquery.magnific-popup.min.js') }}"></script>
+
+    <!--====== Parallax js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/parallax.min.js') }}"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static' ,filename='assets/js/jquery.counterup.min.js') }}"></script>
+
+
+ 
+
+
+    <!--====== Appear js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/jquery.appear.min.js') }}"></script>
+
+    <!--====== Scrolling js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/scrolling-nav.js') }}"></script>
+    <script src="{{ url_for('static' ,filename='assets/js/jquery.easing.min.js') }}"></script>
+
+
+    <!--====== Main js ======-->
+    <script src="{{ url_for('static' ,filename='assets/js/main.js') }}"></script>
+
+
+    <script src="{{ url_for('static' ,filename='assets/js/bootstrap.min.js.map.js') }}"></script>
+    <script src="{{ url_for('static' ,filename='assets/js/popper.min.js.map.js') }}"></script>
+</body>
+
+</html>
